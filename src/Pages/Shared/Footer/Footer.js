@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <Footer>
+        <footer>
             <p><small>copyright @ /dynamic year/</small></p>
-        </Footer>
+        </footer>
     );
 };
 

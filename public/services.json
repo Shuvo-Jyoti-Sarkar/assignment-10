@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Travel Management",
+        "price": "320",
+        "description": "This area of services would include the management and reservation of transport tickets, searches for accommodations, car rentals, etc.",
+        "img": "https://i.ibb.co/QdkXXJn/service1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Passenger assistance",
+        "price": "100",
+        "description": "On a trip there may be many unforeseen problems and issues which need to be resolved: repatriation due to illness, accident or emergency, lost luggage or documents, etc.",
+        "img": "https://i.ibb.co/RpfzN3Q/service2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Consulting",
+        "price": "200",
+        "description": "Consulting services include a large number of aspects which are related, more or less directly, with travel: information of interest for the traveler (customs of the country of destination, recommendations on behavior, etc.), cost optimization and control, advice on travel policies, etc.",
+        "img": "https://i.ibb.co/GpRNk0J/service3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Marketing and internal communication",
+        "price": "280",
+        "description": "Due to its experience, a travel management agent can be very helpful in preparing travel policies for travelers (rules regarding expenses, management, etc.), as well as traveler's proper and effective communication during the tour.",
+        "img": "https://i.ibb.co/z8nS3NY/service4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Technological assistance",
+        "price": "200",
+        "description": "The proper and constantly updated use of technology is vital, not only for the requesting and comparison of travel services (tickets, accommodation, etc.) but also for such diverse aspects as billing management or locating travelers in extreme situations.",
+        "img": "https://i.ibb.co/zH8xMjP/service5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Leisure Services",
+        "price": "299",
+        "description": "With the comprehensive management of travel, travel agent achieve the goal of giving added value to his service, which is essential in order to meet the current expectations and needs of individuals.",
+        "img": "https://i.ibb.co/GkBzt0S/service6.jpg"
+    }
+]
