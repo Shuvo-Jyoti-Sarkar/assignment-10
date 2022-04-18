@@ -14,3 +14,11 @@
 
 ## List of Technologies:
 
+<ul>
+<li>React router</li>
+<li>Firebase</li>
+<li>Bootstrap</li>
+<li>React Bootstrap</li>
+<li>React Firebase hooks</li>
+<li>React Toastify</li>
+</ul>
