@@ -13,7 +13,7 @@ const Register = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     const navigate = useNavigate();
 
     const handleRegister = event => {
@@ -47,9 +47,9 @@ const Register = () => {
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                    <Form.Check type="checkbox" label="Accept Terms and Conditions" />
                 </Form.Group>
-                <Button variant="dark" type="submit">
+                <Button className='mt-2' variant="dark" type="submit">
                     Register
                 </Button>
             </Form>
