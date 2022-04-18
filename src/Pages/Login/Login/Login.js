@@ -3,6 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -17,6 +18,12 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+
+    let errorElement;
+
+    if (error) {
+        errorElement = <p className='text-danger'>Error: {error?.message}</p>
+    }
 
     const handleSubmit = event => {
         event.preventDefault();
@@ -55,7 +62,9 @@ const Login = () => {
                     Submit
                 </Button>
             </Form>
-            <p>New to Trip to Dreamland? <Link to='/register' className='text-primary text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+            {errorElement}
+            <p className='mt-2'>New to Trip to Dreamland? <Link to='/register' className='text-primary text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
